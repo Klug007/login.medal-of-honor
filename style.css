@@ -67,13 +67,14 @@ form h1 {
 }
 .or {
     margin: 0 auto;
+    position: relative;
 }
 
 .or::before {
     content: "_______________";
-    display: inline;
-    position: relative;
+    position: absolute;
     top: -15px;
+    right: 31 git px;
     color: #908e9740;
 }
 .or p {
@@ -84,8 +85,8 @@ form h1 {
 }
 .or::after {
     content: "_______________";
-    display: inline;
-    position: relative;
+    /* display: inline; */
+    position: absolute;
     top: -15px;
     color: #908e9740;
 }
