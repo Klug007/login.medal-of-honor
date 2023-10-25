@@ -182,7 +182,7 @@ form .button:active {
     background-color: rgba(23,26,41,0.7);
     border: 2px solid #0049a0;
     border-radius: 8px;
-    width: 400px;
+    width: 100%;
     color: white;
     font-size: 16px;
     font-weight: 400;
