@@ -74,7 +74,7 @@ form h1 {
     content: "_______________";
     position: absolute;
     top: -15px;
-    right: 31 git px;
+    right: 35px;
     color: #908e9740;
 }
 .or p {
@@ -88,6 +88,7 @@ form h1 {
     /* display: inline; */
     position: absolute;
     top: -15px;
+    left: 34px;
     color: #908e9740;
 }
 
