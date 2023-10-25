@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #1d2033;
+}
+
+form {
+    width: 26%;
+    height: 100%;
+    /* margin-top: 150px; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px auto;
+}
+
+.img1 {
+    height: 64px;
+    width: 64px;
+    margin: 24px auto;
+}
+
+form h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    /* width: 450px; */
+}
+
+.media-logos {
+    margin: 25px auto;
+}
+
+.media-logos img {
+    height: 48px;
+    width: 48px;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+}
+.media-logos img:nth-child(1) {
+    background-color: white;
+}
+.media-logos img:nth-child(2) {
+    background-color: #1877f2;
+}
+.media-logos img:nth-child(3) {
+    background-color: white;
+}
+.media-logos img:nth-child(4) {
+    background-color: black;
+}
+.media-logos img:nth-child(5) {
+    background-color: #107c10;
+}
+.media-logos img:nth-child(6) {
+    background-color: #0049a0;
+}
+.or {
+    margin: 0 auto;
+}
+
+.or::before {
+    content: "_______________";
+    display: inline;
+    position: relative;
+    top: -15px;
+    color: #908e9740;
+}
+.or p {
+    color: #908e97;
+    display: inline;
+    font-size: 16px;
+    font-weight: 100;
+}
+.or::after {
+    content: "_______________";
+    display: inline;
+    position: relative;
+    top: -15px;
+    color: #908e9740;
+}
+
+form p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+form #email,
+#password {
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    background-color: #141724;
+    margin-top: 10px;
+    padding: 13px 10px;
+    /* margin-bottom: 5px; */
+    border: 2px solid #62626f;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+}
+
+#email:hover, #password:hover {
+    border-color: #908e97;
+}
+
+#email:focus, #password:focus {
+    box-shadow: 1px 1px 5px white;
+}
+
+#email:active, #password:active {
+    /* box-shadow: 1px 1px 5px white; */
+    background-color: #141724;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 23px;
+    margin: 0px 5px;
+    background-color: #141724;
+    color: #141724;
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    background-color: #141724;
+    color: #141724;
+}
+
+
+.remember sup{
+    color: white;
+    font-size: 16px;
+}
+
+form .button {
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #235fe3;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+form .button:active {
+    background-color: rgb(86, 235, 86);
+}
+
+#show {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    position: relative;
+    top: -35px;
+    left: 360px;
+}
+
+.forg {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.forg a {
+    color: #5288fd;
+    text-decoration: none;
+}
+
+.create {
+    padding: 13px 30px; 
+    background-color: rgba(23,26,41,0.7);
+    border: 2px solid #0049a0;
+    border-radius: 8px;
+    width: 400px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    /* margin-bottom: 25px; */
+}
+
+.create:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px #0049a0;
+    transform: scale(0.96);
+}
